@@ -1,0 +1,21 @@
+{
+  "name": "kield-01/forbytes-test-task",
+  "description": "Forbytes test task",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Roman Kozin",
+      "email": "romanko95.rk@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Forbytes\\Test\\": "src/"
+    },
+    "files": [
+      "bootstrap.php"
+    ]
+  },
+  "require": {}
+}
